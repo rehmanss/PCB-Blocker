@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+
+    "name": "PCB Blocker",
+    "description": "Website blocker for parents, if you don't want you kids to access adult websites",
+    "version": "2.5",
+    
+     "icons": {
+    "16": "favicons/16x16.png",
+    "32": "favicons/32x32.png",
+    "48": "favicons/48x48.png",
+    "144": "favicons/144x144.png"
+  },
+
+    "permissions": [
+        "<all_urls>", "webRequest", "webRequestBlocking"
+    ],
+
+    "background": {
+        "scripts": ["script.js"]
+    }
+}
